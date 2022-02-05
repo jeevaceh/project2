@@ -4,7 +4,7 @@ const app =express();
 
 app.get('/' ,(req,res) => {
 
-res.sent({
+res.json({
     "name" : "jeeva"
 });
 

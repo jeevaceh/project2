@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/jeeva' , (req,res) => {
 
- res.sent("Hello world ");
+ res.json("Hello world ");
 
 });
 app.listen(3000);
